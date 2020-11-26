@@ -16,7 +16,7 @@ public class Main {
         int valor = calcularSegundos (6,18,30);
         System.out.println("Em segundos é : " + valor);
 
-        int [] array = {5,5,2,3};
+        int [] array = {5,2,4,5};
         int maximum = calcularMaximo (array);
         int minimum = calcularMinimo (array);
         int media = calcularMedia (array);
@@ -76,8 +76,6 @@ public class Main {
             media = total/array.length;
         return media;
     }
-
-
 }
 
 
