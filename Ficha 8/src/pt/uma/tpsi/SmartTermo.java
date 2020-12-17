@@ -27,8 +27,9 @@ public class SmartTermo extends JFrame {
     public SmartTermo(String title){
         super(title);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        this.pack();
+
         this.setContentPane(jPanelMain);
+        this.pack();
 
 
         this.tempActual=22;
@@ -37,8 +38,8 @@ public class SmartTermo extends JFrame {
         this.humidityWanted=7;
 
 
-        this.jLabelTempActual.setText(tempActual+"º");
-        this.jLabelTempWanted.setText(tempWanted+"º");
+        this.jLabelTempActual.setText(tempActual+"ºC");
+        this.jLabelTempWanted.setText(tempWanted+"ºC");
         this.jLabelHumidityActual.setText(humidityActual+"º");
         this.jLabelHumidityWanted.setText(humidityWanted+"º");
         this.jLabelDate.setText("Data: "+ new Date());
@@ -54,7 +55,7 @@ public class SmartTermo extends JFrame {
                 if (prob <= 0.3){
                     tempActual-=0.5;
                 }
-                jLabelTempActual.setText(tempActual+"º");
+                jLabelTempActual.setText(tempActual+"ºC");
 
             }
         };
@@ -67,7 +68,7 @@ public class SmartTermo extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 tempWanted+=0.5;
-                jLabelTempWanted.setText(tempWanted+"º");
+                jLabelTempWanted.setText(tempWanted+"ºC");
                 jTextAreaLog.setText("Aumentou a temperatura para: "+tempWanted+ "\n"+jTextAreaLog.getText());
             }
         });
@@ -75,7 +76,7 @@ public class SmartTermo extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 tempWanted-=0.5;
-                jLabelTempWanted.setText(tempWanted+"º");
+                jLabelTempWanted.setText(tempWanted+"ºC");
                 jTextAreaLog.setText("Diminuiu a temperatura para: "+tempWanted + "\n"+jTextAreaLog.getText());
             }
         });
