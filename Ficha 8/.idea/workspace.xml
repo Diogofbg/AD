@@ -46,7 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ficha8Android" />
   </component>
   <component name="RunManager" selected="Application.SmartTermo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -106,9 +106,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607631453701" />
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1607630529071">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1608232554799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608232554799" />
     <state x="739" y="261" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607630529071" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608228027930">
       <screen x="0" y="0" width="1920" height="1040" />
