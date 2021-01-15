@@ -9,6 +9,7 @@
         <module>IoTReaper</module>
         <module>IoTReaper</module>
         <module>IoTTelemetryReader</module>
+        <module>IoTcontroller</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IoTReaper/IoTReaper.iml" filepath="$PROJECT_DIR$/IoTReaper/IoTReaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IoTController/IoTcontroller.iml" filepath="$PROJECT_DIR$/IoTController/IoTcontroller.iml" />
     </modules>
   </component>
 </project>

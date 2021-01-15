@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="IotDevice" />
-        <module name="IoTReaper" />
         <module name="IoTTelemetryReader" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="IoTController" target="1.7" />
+      <module name="IoTcontroller" target="15" />
       <module name="IoTReader" target="1.7" />
       <module name="IoTReaper" target="1.7" />
     </bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="IoTReader" options="" />
       <module name="IoTReaper" options="" />
       <module name="IoTTelemetryReader" options="" />
+      <module name="IoTcontroller" options="-parameters" />
       <module name="IotDevice" options="-parameters" />
     </option>
   </component>
